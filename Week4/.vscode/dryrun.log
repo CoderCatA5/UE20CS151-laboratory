@@ -1,0 +1,16 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'd:/Important Files/AYUSHSINGHPES2UG20CS081/Week4'
+gcc -c -Wall bruh1.c
+gcc -c -Wall monke1.c
+gcc bruh1.o monke1.o -o bruh1 
+make: Leaving directory 'd:/Important Files/AYUSHSINGHPES2UG20CS081/Week4'
+ 
+Makefile:38: warning: overriding recipe for target 'clean'
+Makefile:24: warning: ignoring old recipe for target 'clean'
+Makefile:52: warning: overriding recipe for target 'clean'
+Makefile:38: warning: ignoring old recipe for target 'clean'
+Makefile:67: warning: overriding recipe for target 'clean'
+Makefile:52: warning: ignoring old recipe for target 'clean'
+Makefile:81: warning: overriding recipe for target 'clean'
+Makefile:67: warning: ignoring old recipe for target 'clean'
+ 
